@@ -1,0 +1,15 @@
+[project]
+name = "zuoye005"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.2.13",
+    "langchain-deepseek>=1.0.1",
+    "langchain-mcp-adapters>=0.2.1",
+    "langgraph-cli[inmem]>=0.4.15",
+    "pillow>=12.1.1",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=0.3.0",
+    "pymupdf4llm>=0.0.17",
+]
